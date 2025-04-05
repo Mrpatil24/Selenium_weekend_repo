@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[register test case executed]]>
+    </line>
+    <line>
+      <![CDATA[login test case executed]]>
+    </line>
+    <line>
+      <![CDATA[Item added to the Cart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-12T14:04:36 IST" name="Default suite" finished-at="2025-03-12T14:06:05 IST" duration-ms="89534">
+    <groups>
+    </groups>
+    <test started-at="2025-03-12T14:04:36 IST" name="Default test" finished-at="2025-03-12T14:06:05 IST" duration-ms="89534">
+      <class name="testNG.DependsOnMethods">
+        <test-method signature="register()[pri:0, instance:testNG.DependsOnMethods@c8c12ac]" started-at="2025-03-12T14:04:36 IST" name="register" finished-at="2025-03-12T14:05:09 IST" duration-ms="32953" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register test case executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:0, instance:testNG.DependsOnMethods@c8c12ac]" started-at="2025-03-12T14:05:09 IST" name="login" finished-at="2025-03-12T14:05:39 IST" depends-on-methods="testNG.DependsOnMethods.register" duration-ms="29687" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login test case executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cart()[pri:0, instance:testNG.DependsOnMethods@c8c12ac]" started-at="2025-03-12T14:05:39 IST" name="cart" finished-at="2025-03-12T14:06:05 IST" depends-on-methods="testNG.DependsOnMethods.login, testNG.DependsOnMethods.register" duration-ms="26867" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Item added to the Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cart -->
+      </class> <!-- testNG.DependsOnMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
