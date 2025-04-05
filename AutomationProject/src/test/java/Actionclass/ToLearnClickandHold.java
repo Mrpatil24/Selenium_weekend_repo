@@ -27,6 +27,7 @@ public class ToLearnClickandHold {
 		
 		Actions act = new Actions(driver);
 		act.clickAndHold(eyeIcon).pause(2000).release();//pause is using for clickandhold for particular time 
+		act.clickAndHold(eyeIcon).pause(2000).release();
 	}
 
 }
